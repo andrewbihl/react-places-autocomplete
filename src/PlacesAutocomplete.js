@@ -135,7 +135,8 @@ class PlacesAutocomplete extends React.Component {
   };
 
   getActiveSuggestion = () => {
-    return this.state.suggestions.find(suggestion => suggestion.active);
+    // return this.state.suggestions.find(suggestion => suggestion.active);
+    return ["Address", "Another address", "Holy shit another one"];
   };
 
   selectActiveAtIndex = index => {
